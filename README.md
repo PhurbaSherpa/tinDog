@@ -1,2 +1,1 @@
-# tinDog
-fake tinder for dogs
+TinDog Starting Files

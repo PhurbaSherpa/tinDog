@@ -1,0 +1,149 @@
+body {
+   font-family: 'Montserrat';
+   font-weight: 600;
+   text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Montserrat';
+   font-weight: bold;
+}
+h3 {
+   font-size: 2rem;
+   line-height: 1.5;
+}
+p {
+   color: grey;
+}
+/* Headings */
+.header {
+   font-family: 'Montserrat';
+   font-weight: 900;
+   font-size: 3.5rem;
+   line-height: 1.5;
+   color: white;
+}
+.section-heading {
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+/* Container */
+.container-fluid {
+   padding: 7% 15%;
+}
+
+i {
+   color: #ef8172;
+}
+i:hover {
+   color: #ff4c68;
+}
+
+/* Navigation bar */
+.navbar {
+   padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+   font-size: 2.5rem;
+   font-weight: bold;
+   font-family: 'Ubuntu';
+}
+.nav-item {
+   padding: 0 18px;
+}
+.nav-link {
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+
+/* Setions */
+.whitesec {
+   background-color: #fff;
+}
+.colorsec {
+   background-color: #ff4c68;
+   color: #fff;
+}
+
+/* Title Section */
+#title {
+   text-align: left;
+}
+#title .container-fluid {
+   padding: 3% 15% 7%;
+}
+.titleimg {
+   width: 60%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 25%;
+}
+
+/* Buttons */
+.buttonD {
+   margin: 5% 3% 5% 0;
+}
+
+/* features */
+
+#features {
+   position: relative;
+}
+.features-title {
+   font-size: 1.5rem;
+}
+/* testimonials */
+.testimonialimg {
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+}
+.testimonial-text {
+   font-size: 3rem;
+   line-height: 1.5;
+}
+/* Press */
+#press {
+   padding-bottom: 3%;
+}
+.presslogo {
+   width: 15%;
+   margin: 20px 20px 50px;
+}
+.carousel-indicators {
+   bottom: 50px;
+}
+#pricing {
+   padding: 100px;
+}
+.pricingtxt {
+   font-size: 3rem;
+   line-height: 1.5;
+}
+.pricingcol {
+   padding: 3% 2%;
+}
+.ctatext {
+   font-family: 'Montserrat';
+   font-weight: bold;
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
+.footer {
+   margin: auto 5px;
+}
+
+@media (max-width: 1028px) {
+   .row {
+      text-align: center;
+   }
+   .titleimg {
+      position: static;
+      transform: initial;
+   }
+}
